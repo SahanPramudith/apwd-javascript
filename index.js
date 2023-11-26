@@ -92,6 +92,128 @@ console.log("bogahawatta");
     x--
     console.log(x);
 
+    // ........// function...............
+
+    function sa() {
+        console.log("my name is  sahan");
+
+    }
+    sa()
+
+    function pradeep() {
+        console.log("good father ");
+    }
+
+    pradeep()
+
+    // ඇරෝ function.........
+
+    var bh = ()=>{
+        console.log("my school is  st tomas college ");
+    }
+    bh()
+
+    var cr = ()=>{
+        console.log("who is the best batsma in cricket = virat kohli");
+    }
+    cr()
+
+    function good(name) {
+        console.log("my name is ",name);
+    }
+    good("pramudith")
+
+    function valage(name,age) {
+        console.log("my valage is ",name);
+        console.log("my age is ",age);
+    }
+
+    valage("Gandara",21)
+
+    var cr = (cricket)=>{
+        // console.log("who",cricket);
+    }
+    cr("virat")
+
+
+    function addi(nuber1,nuber2) {
+        var assing =nuber1+nuber2
+        console.log(assing);
+    }
+    addi(10,20)
+
+    // return/................
+
+    function myfun(num1,num2,num3,num4) {
+        let sum = num1+num2+num3+num4
+        let avg  = sum/4 
+        return avg
+        // console.log(avg);
+
+    }
+    var tot =myfun(10,2,300,4)
+    console.log(tot);
+
+//    ................ // flow controls..................
+
+// if......
+
+var g =60
+
+if (g <50) {
+    console.log(2003);
+
+}
+// else if........
+var maks =85
+ if (maks>35) {
+    console.log("pass");
+ } else {
+    console.log("fail");
+ }
+
+//  nested if.......
+
+var maks = 45
+if (maks>75) {
+    console.log("A");
+    if (maks>55) {
+        console.log("B");
+    } else  {
+        console.log("C");
+    }
+} else {
+    console.log("fail");
+}
+// switch.......
+
+var mama ="pamudith"
+
+switch (mama) {
+    case "sahan":
+        console.log("good");
+        break;
+    case "paramudith":
+        console.log("very good");
+
+    default:
+        console.log("erro");
+        break;
+}
+//....... loops............
+
+for (let i = 0; i < 5; i++) {
+    console.log("sahan"+i);
+    
+}
+
+    const element = array["aA","bB","cC"];
+
+for (let o = 0; o < array.length; o++) {
+    console.log(1);
+}
+
+
     
 
 
