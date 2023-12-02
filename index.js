@@ -213,7 +213,72 @@ for (let o = 0; o < array.length; o++) {
     console.log(1);
 }
 
+// ...........Event..............
 
+// onclik..........
+
+function onclik() {
+    console.log("Hello Acpt");
+}
+
+function ubmit() {
+    alert("hello Acpt")
+}
+
+// onchange..........
+
+function hell() {
+    console.log("sahan");
+}
+function dr() {
+    alert("change text")
+}
+
+function text1() {
+   const a = document.getElementById('text-1').value
+   console.log(a);
+}
+
+
+function CLICLI() {
+    
+    
+}
+function button() {
+    var apple= document.getElementById('h1').value
+    document.getElementById('h1-text').innerHTML=apple
+}
+
+// .........................................
+function red() {
+    var readtext = document.getElementById('read').value
+    document.getElementById('readtext01').innerHTML=readtext
+
+}
+// onmouseover............................
+
+function mousover() {
+    document.getElementById('mous').style.backgroundColor='blue'
+    
+}
+function mousout() {
+    document.getElementById('mous').style.backgroundColor='red'
+}
+
+function moushoer2() {
+    document.getElementById('mous2').style.backgroundColor='red'
+}
+function mousout2() {
+    document.getElementById('mous2').stylele.backgroundColor='rgb(75, 116, 116)'
+}
+
+
+function douwn() {
+    console.log("doun");
+}
+function up() {
+    console.log("up");
+}
     
 
 
